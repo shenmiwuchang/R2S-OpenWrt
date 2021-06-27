@@ -292,6 +292,8 @@ git clone -b master --depth 1 https://github.com/brvphoenix/wrtbwmon.git package
 git clone -b master --depth 1 https://github.com/brvphoenix/luci-app-wrtbwmon.git package/new/luci-app-wrtbwmon
 # 迅雷快鸟宽带加速
 git clone --depth 1 https://github.com/garypang13/luci-app-xlnetacc.git package/lean/luci-app-xlnetacc
+# Socat
+svn co https://github.com/QiuSimons/OpenWrt_luci-app/trunk/lean/luci-app-arpbind package/new/SoCat
 # Zerotier
 svn co https://github.com/immortalwrt/immortalwrt/branches/master/package/lean/luci-app-zerotier package/lean/luci-app-zerotier
 cp -f ../PATCH/new/script/move_2_services.sh ./package/lean/luci-app-zerotier/move_2_services.sh
